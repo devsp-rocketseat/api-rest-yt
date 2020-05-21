@@ -1,4 +1,4 @@
-# :pushpin: Sumário
+# :pushpin: índice
 
 1. [Objetivo do Projeto](#dart-objetivo-do-projeto)
 2. [Sobre](#page_with_curl-sobre)
@@ -16,11 +16,11 @@ Uma API REST que gerencia o login, cria um usuário, autentica a seção com tok
 
 ## :page_with_curl: Sobre
 
-O projeto foi desenvolvido seguindo uma PlayList do canal da [RocketSeat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) - [Série API NodeJS](https://www.youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp), com o @diego3g ministrando as aulas, foi uma das primeiras API que criei com o Node.js, então a parte de autenticação com JWT e de criptografia com o Bcrypt foram novidades, até o envio de e-mail com Nodemailer, e a utilização do serviço MailTrap que é uma caixa de e-mail fake, para fazer envio de e-mail em ambiente de desenvolvimento, que pra falar a verdade nem sabia que existia esse tipo de serviço, foi um projeto muito interessante e pude obter muito conhecimento com ele.
+O projeto foi desenvolvido seguindo uma PlayList do canal da [RocketSeat](https://www.youtube.com/channel/UCSfwM5u0Kce6Cce8_S72olg) - [Série API NodeJS](https://www.youtube.com/playlist?list=PL85ITvJ7FLoiXVwHXeOsOuVppGbBzo2dp), com o [Diego Fernandes](https://github.com/diego3g) ministrando as aulas, foi uma das primeiras API que criei com o Node.js, então a parte de autenticação com JWT e de criptografia com o Bcrypt foram novidades, até o envio de e-mail com Nodemailer, e a utilização do serviço MailTrap que é uma caixa de e-mail fake, para fazer envio de e-mail em ambiente de desenvolvimento, que pra falar a verdade nem sabia que existia esse tipo de serviço, foi um projeto muito interessante e pude obter muito conhecimento com ele.
 
 ## :rocket: Tecnologias Utilizadas
 
-* [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 * [Node.js](https://nodejs.org/en/)
 * **Banco de dados:** [MongoDB](https://www.mongodb.com/)
 * **Cliente REST:** [Insomnia](https://insomnia.rest/)
@@ -47,11 +47,11 @@ O projeto foi desenvolvido seguindo uma PlayList do canal da [RocketSeat](https:
 
 * É necessario criar dois arquivos dentro da pasta **src/config**.
 * **auth.json** com o conteúdo:
-    - { "secret": "456bc20d374ee2f9db6cb55f87714559" }
-    - secret, é o hash da aplicação para gerar o token.
+    - `{ "secret": "456bc20d374ee2f9db6cb55f87714559" }`
+    - **secret**, é o hash da aplicação para gerar o token.
     - vc pode gerar um hash md5 [Aqui](https://www.md5hashgenerator.com/).
-* **mail.json** com o conteúdo necessario para criar o transporter do Nodemailer: 
-    - { "host": "oHost", "port": aPorta, "user": "seuUser", "pass": "seuPass" }
+* **mail.json** com o conteúdo necessario para criar o transport do Nodemailer: 
+    - `{ "host": "oHost", "port": aPorta, "user": "seuUser", "pass": "seuPass" }`
 
 ## :arrow_forward: Rodar o Projeto
 
@@ -63,7 +63,7 @@ O projeto foi desenvolvido seguindo uma PlayList do canal da [RocketSeat](https:
 
 ## :keyboard: Resultado
 
-**Rotas para lidar com a autenticação**
+**Rotas para lidar com a autenticação:**
 
 ``` js
     // (POST) --- Rota de registro:
@@ -104,7 +104,7 @@ O projeto foi desenvolvido seguindo uma PlayList do canal da [RocketSeat](https:
     }
 ```
 
-**Rotas para lidar com os projetos**
+**Rotas para lidar com os projetos:**
 
 ``` js
     // (GET) --- Rota para listar todos os projetos:
